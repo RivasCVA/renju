@@ -2,5 +2,14 @@
     "parserOptions": {
         "project": "./tsconfig.json"
     },
-    "extends": ["airbnb-typescript-prettier"]
+    "extends": ["airbnb-typescript-prettier"],
+    "settings": {
+        "import/resolver": {
+            "typescript": {}
+        }
+    },
+    "rules": {
+        "import/prefer-default-export": "off",
+        "no-console": "off"
+    }
 }
