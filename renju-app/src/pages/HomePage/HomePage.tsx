@@ -3,6 +3,7 @@ import { Button } from 'components/Button';
 import { useHistory } from 'react-router-dom';
 import './HomePage.css';
 
+/** The landing home page. */
 export const HomePage = (): JSX.Element => {
   const history = useHistory();
 
@@ -12,7 +13,7 @@ export const HomePage = (): JSX.Element => {
 
   return (
     <div className="HomePage">
-      <h1 className="Title">Renju</h1>
+      <h1 className="title">Renju</h1>
       <Button onClick={handleOnClick}>Begin</Button>
     </div>
   );

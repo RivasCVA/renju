@@ -4,9 +4,11 @@
   align-items: center;
   min-height: 100vh;
   background-color: #003366;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
-.Title {
+.title {
   color: #ffffff;
   font-size: 35pt;
 }

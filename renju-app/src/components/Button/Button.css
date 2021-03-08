@@ -1,6 +1,8 @@
 .Button {
   width: 100px;
   height: 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 16pt;
   border-radius: 10px;
   border: none;

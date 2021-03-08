@@ -1,0 +1,10 @@
+.GamePiece {
+  position: absolute;
+  top: 148px;
+  left: 148px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+}
