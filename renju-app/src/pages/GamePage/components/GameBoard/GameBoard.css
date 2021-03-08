@@ -1,0 +1,18 @@
+.GameBoard {
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.square-row {
+  display: flex;
+  flex-direction: row;
+  background: #000000;
+}
+
+.square {
+  width: 35px;
+  height: 35px;
+  margin: 1px;
+  background: rgb(241,183,73);
+}
